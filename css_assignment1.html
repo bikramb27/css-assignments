@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="as1.css">
+
+    <style> /* Starting the css styling from here */
+        .b{
+            border-style:  solid  ;    /* this is the first class named as b */
+            border-width: 0px 15px 0px 0px;  /* made the left side border more bolder */
+            border-color: black;
+            color:#80007E;             /* the text font color*/
+            background-color: white;
+            width:150px;
+            height:25px;
+        }
+        .c{                                 /* this is the second class named as c */
+            border-style:dotted;
+            border-color:#80007E ;
+            color:#80007E;                /* the text font color*/ 
+            border-width:0px 0px 1px 0px;
+            position: relative;            /* gave the positon */
+            bottom: 200px;                 /* margine value from the bottom*/
+            margin-top: 45px;
+            margin-left:220px;
+        }
+        .d{                            /* this is the third class named as d */
+            position: relative;      
+            bottom: 390px;             /* margine value from the bottom*/
+            margin-top:200px;
+            margin-left:220px;
+            color:#80007E;           /* the text font color*/
+            font-style: italic;
+         }
+
+        #t1{                       /* the first id created*/
+            margin-top: 30px;
+            margin-left: 10px;
+            padding:2px 0px 0px 1px;
+            
+        }
+        #t2{
+            margin-top: 10px;      /* the second id created*/
+            margin-left:10px;
+            padding:2px 0px 0px 1px;
+        }
+        #d1{
+            white-space:pre-line;    /* the third id created*/
+        }
+        </style>
+</head>
+<body style=background-color:#D8DA3D>     <!-- gave the body background-->
+
+<div id=t1 class="b"> w3schools-HTML</div>   <!-- first item with first class named as "d" and id "t1"-->
+
+<div id=t2 class="b"> w3schools-CSS</div> 
+
+<div id=t2 class="b">w3schools-JS</div>
+
+<div id="t2" class="b">w3schools-PHP</div>
+    
+<div class="c" ><h1>My first style page</h1> <!--first div eith the class "c" -->
+    <p id="d1">Welcome to my styled page!<br>  <!--to take the white space we use the id"d1" where the whitespace defined-->
+Lorem  ipsum dolor sit amet,consectetur adipiscing elit,sed do eiusmod tempor oncididunt ut labore et dolore magna aliqua....<br>
+Lorem  ipsum dolor sit amet,consectetur adipiscing elit,sed do eiusmod tempor oncididunt ut labore et dolore magna aliqua.<br><br>
+</p></div>
+<div id="d1" class="d"> Made 25 january 2018
+     by myself.</div>
+</body>
+</html>  <!--ends here-->
