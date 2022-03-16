@@ -15,6 +15,9 @@
   margin-top: 40px;
   margin-left: 220px;
 }
+#h1 {
+  font-family: Arial;
+}
 #id1 {
   /*first id created*/
   border-style: solid;
