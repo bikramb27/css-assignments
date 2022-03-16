@@ -1,0 +1,109 @@
+.scrollbar {
+  height: 1000px;
+  overflow-y: hidden;
+  background-color: #d8da3d;
+}
+
+.class1 {
+  /* first class created*/
+  border-style: dotted;
+  border-color: #80007e;
+  color: #80007e; /* the text font color*/
+  border-width: 0px 0px 1px 0px;
+  position: relative; /* gave the positon */
+  bottom: 200px; /* margine value from the bottom*/
+  margin-top: 40px;
+  margin-left: 220px;
+}
+#id1 {
+  /*first id created*/
+  border-style: solid;
+  border-width: 0px 15px 0px 0px;
+  border-color: #ff7f00;
+  color: #80007e;
+  background-color: white;
+  width: 150px;
+  height: 25px;
+  margin-top: 30px;
+  margin-left: 10px;
+  padding: 4px 0px 0px 1px;
+  font-family: "Georgia";
+}
+#id2 {
+  /*second id created*/
+  border-style: solid;
+  border-width: 0px 15px 0px 0px;
+  border-color: #0000ff;
+  color: #80007e;
+  background-color: white;
+  width: 150px;
+  height: 25px;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 4px 0px 0px 1px;
+  font-family: "Georgia";
+}
+#id3 {
+  /*third id created*/
+  border-style: solid;
+  border-width: 0px 15px 0px 0px;
+  border-color: #ff7f00;
+  color: #80007e;
+  background-color: white;
+  width: 150px;
+  height: 25px;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 4px 0px 0px 1px;
+  font-family: "Georgia";
+}
+#id4 {
+  /*fourth id created*/
+  white-space: pre-line; /* for taking the white space*/
+}
+#id5 {
+  /*fifth id created*/
+  border-style: dashed;
+  border-width: 1.5px;
+  height: 30px;
+  position: relative;
+  bottom: 370px;
+  margin: 200px 150px 0px 220px;
+  padding: 7px 0px 0px 3px;
+}
+#id6 {
+  /*sixth id created*/
+  border-style: dashed;
+  border-width: 1.5px;
+  border-color: #ff7f00;
+  height: 30px;
+  position: relative;
+  bottom: 550px;
+  font-style: italic;
+  text-align: right;
+  margin: 200px 150px 0px 220px;
+  padding: 7px 0px 0px 3px;
+}
+#id7 {
+  /*seventh id created*/
+  border-style: dashed;
+  border-width: 1px;
+  border-color: #0000ff;
+  height: 30px;
+  position: relative;
+  bottom: 730px;
+  font-weight: bold;
+  text-align: center;
+  margin: 200px 150px 0px 220px;
+  padding: 7px 0px 0px 3px;
+}
+#id8 {
+  /*eight id created*/
+  position: relative;
+  bottom: 900px; /* margine value from the bottom*/
+  margin-top: 200px;
+  margin-left: 220px;
+  color: #80007e; /* the text font color*/
+  font-style: italic;
+  white-space: pre-line;
+}
