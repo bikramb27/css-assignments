@@ -1,0 +1,56 @@
+.scrollbar {
+  overflow-y: hidden;
+}
+#id1 {
+  /* first id used for the first pink color section*/
+  border: solid;
+  border-bottom: 1px;
+  width: 800px;
+  margin: 10px 20px 0px 150px;
+  padding: 1px 30px 20px 30px;
+  background-color: #ff9999;
+}
+#id2 {
+  /* second id used for the 2nd image section*/
+  border: solid;
+  background-color: rgb(230, 230, 62);
+  padding: 5px 10px 5px 10px;
+  margin-left: 150px;
+  width: 600px;
+  height: 300px;
+}
+#id3 {
+  /* third id used for the about me box section*/
+  border: solid;
+  border-left: 0px;
+  background-color: #ececfb;
+  width: 239px;
+  height: 310px;
+  position: relative;
+  bottom: 314px;
+  left: 773px;
+  text-align: center;
+  white-space: wrap;
+}
+#img1 {
+  /*first image id*/
+  height: 300px;
+  width: 600px;
+}
+#img2 {
+  /*"about me" image id*/
+  vertical-align: text-top;
+  margin-left: 20px;
+  margin-top: 10px;
+  height: 100px;
+}
+#id1line1 {
+  /*for first box first line text*/
+  font-size: 32px;
+  padding: 0px 100px 0px 120px;
+}
+#id1line2 {
+  /* for first box second line text*/
+  font-size: 20px;
+  padding: 20px 20px 20px 80px;
+}
